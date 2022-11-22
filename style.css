@@ -3,6 +3,7 @@ html,body{
     margin: 0px;
     scroll-behavior: smooth;
     font-family: 'Rubik',sans-serif;
+    background-color: burlywood;
 }
 
 nav{
@@ -43,7 +44,7 @@ img{
     background-size: 100%;
     padding: 300px 300px;
 }
-.glavno{
+.glavni{
     width: 80%;
     margin: 0px auto;
     padding: 2% 0%;
@@ -108,10 +109,6 @@ footer{
 }
 
 @media screen and (max-width:1000px){
-    .topHeader{
-        background: url(img/auto_detailing.png) center fixed;
-        background-size: 270%;
-    }
     .paket_detailinga{
         text-align:center;
         display: grid;
@@ -140,5 +137,61 @@ footer{
         background: goldenrod; 
         padding:80px;
         margin: 5% 0%;
+    }
+    .gore{
+        float: left;
+        text-align: center;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    .gore .goreLi{
+        display: grid;
+        font-size: 30px;
+        letter-spacing: 1px;
+        padding: 15px 50px;
+    }
+    .gore .goreLi .goreA{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .naslov,.naslovh2{
+        color: rgba(238, 238, 238, 0.7);
+    }
+    .textarea{
+        background-color: rgb(149, 149, 149, 0.9);
+        padding: 1% 5%;
+        border: 1px solid black;
+        padding: 60px;
+        text-align: justify;
+        line-height: 30px;
+    }
+    footer{
+        background-color:black;
+        padding: 10px 0px;
+        text-align:center;
+        font-weight:bold;
+        color:white; 
+        letter-spacing:2px;
+        width: 440px;
+    }
+    nav{
+        background-color: rgba(129, 128, 128, 0.7);
+        padding: 5px 0px;
+        position: absolute;
+        width: 480px;
+        height: auto;
+        text-align: center;
+    }
+    .topHeader{
+        background: url(img/auto_detailing.png) center fixed;
+        background-size: 400%;
+        padding: 400px 135px;
+        width: 50%;
+        height: auto;
+    }
+    .glavni{
+        width: 100%;
+        margin: 0px auto;
+        padding: 2% 0%;
     }
 }
